@@ -262,3 +262,125 @@
     background-size: cover;
     border-radius: 4px;
 }
+
+/* Estilos para tablets (até 1024px) */
+@media screen and (max-width: 1024px) {
+    .topo div {
+        position: static;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .imagem1 h1 {
+        font-size: 60px;
+        padding: 0 20px;
+    }
+
+    .imagem2 h3,
+    .imagem3 h3,
+    .imagem4 h2 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .tel-email-end {
+        width: 90%;
+    }
+
+    .containertexto h2 {
+        font-size: 20px;
+    }
+
+    .containertexto p {
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    .lista-horario {
+        width: 90%;
+        bottom: 10%;
+    }
+}
+
+/* Estilos para celulares (até 768px) */
+@media screen and (max-width: 768px) {
+    .topo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topo img {
+        width: 80px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .topo div a {
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .imagem1 h1 {
+        font-size: 40px;
+    }
+
+    .imagem2 h3,
+    .imagem3 h3,
+    .imagem4 h2 {
+        font-size: 18px;
+        width: 95%;
+        top: 40%;
+    }
+
+    .tel-email-end p {
+        font-size: 14px;
+    }
+
+    .containertexto {
+        padding: 40px 0;
+    }
+
+    .containertexto p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .imagem5 h2 {
+        font-size: 20px;
+        top: 10%;
+    }
+
+    .lista-horario li h3 {
+        font-size: 16px;
+    }
+
+    .lista-horario li p {
+        font-size: 14px;
+    }
+
+    .rodape {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .rodape a {
+        width: 40px;
+        height: 40px;
+        bottom: 70px;
+        right: 20px;
+    }
+
+    /* Desativa o parallax em dispositivos móveis */
+    .imagem1,
+    .imagem2,
+    .imagem3,
+    .imagem4,
+    .imagem5 {
+        background-attachment: scroll;
+    }
+}
