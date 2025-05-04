@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagem1,
+.imagem2,
+.imagem3,
+.imagem4,
+.imagem5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #604829;
+    z-index: 1;
+}
+
+.topo img {
+    width: 100px;
+    position: relative;
+    left: 15px;
+}
+
+.topo div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.topo div a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+.imagem1 {
+    background-image: url("assets/parallax-imagem1.png");
+    height: 100vh;
+}
+
+.imagem1 h1 {
+    top: 45%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    font-size: 100px;
+    text-shadow: 3px 3px 2px #2d2d2d;
+}
+
+.imagem2 {
+    background-image: url("assets/parallax-imagem2.jpg");
+    height: 50vh;
+}
+
+.imagem3 {
+    background-image: url("assets/parallax-imagem3.jpg");
+    height: 50vh;
+}
+
+.imagem4 {
+    background-image: url("assets/parallax-imagem4.png");
+    height: 100vh;
+}
+
+.imagem5 {
+    background-image: url("assets/cafeteria.jpg");
+    height: 85vh;
+}
+
+.imagem2 h3,
+.imagem3 h3 {
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 2px #2d2d2d;
+}
+
+.imagem4 h2 {
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #604829;
+    text-shadow: 0px 6px 8px #000000;
+}
+
+.imagem4 iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.tel-email-end {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #604829;
+}
+
+.tel-email-end p {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+}
+
+.containertexto {
+    padding: 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666
+}
+
+.containertexto h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c
+}
+
+.containertexto p {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.imagem5 h2 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    top: 20%;
+    left: 0;
+    right: 0;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 8px;
+}
+
+.lista-horario {
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista-horario li {
+    position: relative;
+}
+
+.lista-horario li h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista-horario li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-color: #acacac;
+}
+
+.lista-horario li p, .texto-marrom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.texto-marrom {
+    color: #c4a47c;
+}
+
+.lista-horario li p {
+    color: #acacac;
+}
+
+.rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.rodape span {
+    color: #c4a47c;
+}
+
+.rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    background-color: #c4a47c;
+    background-image: url("assets/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+}
